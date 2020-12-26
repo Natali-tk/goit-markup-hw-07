@@ -239,7 +239,7 @@ header {
   color: var(--accent-btn-color);
 }
 
-.link-current::after {
+.site-nav .link-current::after {
   content: '';
   display: block;
   width: 100%;
@@ -797,11 +797,13 @@ footer .container {
   margin-bottom: 20px;
 }
 
-.adress-list > .item:first-child {
-  margin-bottom: 9px;
+.adress-list > .item {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
-.adress-list > .item:nth-child(2) {
+.adress-list > .item:not(:last-child) {
   margin-bottom: 9px;
 }
 

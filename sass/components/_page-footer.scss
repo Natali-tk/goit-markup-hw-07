@@ -14,11 +14,14 @@ footer .container {
   display: block;
   margin-bottom: 20px;
 }
-.adress-list > .item:first-child {
-  margin-bottom: 9px;
-}
-.adress-list > .item:nth-child(2) {
-  margin-bottom: 9px;
+.adress-list > .item {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
 }
 .footer-adress {
   color: var(--primary-white-color);
